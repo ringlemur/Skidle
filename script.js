@@ -1,7 +1,10 @@
 // java script idk man
 
 console.log("Man how do I even do this\n")
+console.log("Script loaded!")
 
+
+const imagePool = []
 
 function getImages() {
     console.log("Loading images...")
@@ -44,7 +47,7 @@ function selectRandomTarget() {
 }
 let currentTarget = selectRandomTarget();
 
-
+console.log(currentTarget);
 //
 // function chooseImageOfDay() {
 //     const now = new Date();
